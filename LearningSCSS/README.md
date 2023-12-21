@@ -2,6 +2,7 @@
 
 - [Learning SCSS](#learning-scss)
   - [Fonts include](#fonts-include)
+  - [Partials](#partials)
 
 ## Fonts include
 
@@ -21,4 +22,12 @@
   }
 }
 
+```
+
+## Partials
+
+In scss/sass elements named with underscore `_card.scss` can be imported as partials
+
+```scss
+@import "./card.scss"
 ```
